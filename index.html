@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Honour-Jesus Bezaleel — ML Engineer | Researcher</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/profile.svg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="assets/profile.svg" alt="Profile" class="avatar"/>
+        <div>
+          <h1>Honour-Jesus Bezaleel</h1>
+          <p class="tagline">ML Engineer | Researcher</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container main">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        I am an independent researcher working on building language and speech models for African languages and accents in education.
+      </p>
+      <p>
+        My research develops ASR and TTS systems for low-resource languages to improve educational accessibility and equity in multilingual African contexts. I'm currently investigating several interconnected approaches: domain-adapted fine-tuning strategies for speech models in code-switched environments, data augmentation techniques for low-resource language pairs, and efficient inference methods for deploying ASR-TTS systems in resource-constrained settings. My broader research vision centres on demonstrating that linguistic equity and technical performance are not opposing forces — thoughtful system design can bridge language barriers while maintaining the quality standards required for high-stakes educational applications.
+      </p>
+      <p>
+        Beyond research, I am passionate about mentoring aspiring data professionals and building open science ML communities. You’ll find me actively involved with ML Collective, Cohere Labs, and other collaborative initiatives. I firmly believe in democratizing access to knowledge, fostering collaborative ecosystems, and championing the ethos of shared discovery.
+      </p>
+      <p>
+        When I’m not doing research, I enjoy playing chess, cooking, fashion illustration, reading books, and listening to podcasts.
+      </p>
+    </section>
+
+    <section id="research" class="card">
+      <h2>Research / Projects</h2>
+      <article class="project">
+        <h3>ASR & TTS for Low‑Resource African Languages</h3>
+        <p>
+          Developing automatic speech recognition and text-to-speech pipelines adapted for code‑switched and low-resource settings. Methods include domain-adapted fine-tuning, targeted data augmentation, and efficient inference strategies for edge deployment in educational contexts.
+        </p>
+        <p><strong>Keywords:</strong> ASR, TTS, low-resource NLP, code-switching, model compression, education tech.</p>
+      </article>
+
+      <article class="project">
+        <h3>Domain‑Adapted Fine‑Tuning for Speech Models</h3>
+        <p>
+          Investigating fine-tuning strategies and data selection to adapt large pretrained speech models to regional accents and multilingual classrooms.
+        </p>
+      </article>
+
+      <p class="note">Want to add project pages or papers? Put HTML files in a <code>projects/</code> folder and link them from here.</p>
+    </section>
+
+    <section id="cv" class="card">
+      <h2>CV</h2>
+      <p>Download my CV (PDF):</p>
+      <a class="btn" href="cv.pdf" download>Download CV</a>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:bhonourjesus@gmail.com">bhonourjesus@gmail.com</a></p>
+      <div class="socials">
+        <a href="https://github.com/honourjesus20" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/honour-jesus-bezaleel/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://x.com/bezaleel_son" target="_blank" rel="noopener">X</a>
+        <a href="https://www.researchgate.net/profile/Honour-Jesus-Bezaleel?ev=hdr_xprf" target="_blank" rel="noopener">ResearchGate</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built for grad school applications • © 2025 Honour-Jesus Bezaleel</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if (t) t.scrollIntoView({behavior: 'smooth'});
+      });
+    });
+  </script>
+</body>
+</html>
